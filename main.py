@@ -1,2 +1,10 @@
 if __name__ == "__main__":
-  print("How to Use the Python Reduce() function to Reduce a List into a Single Value")
+  # Reducing a list
+
+  scores = [75, 65, 80, 95, 50]
+  print(scores)
+
+  total = 0
+  for score in scores:
+    total += score
+  print(total)
